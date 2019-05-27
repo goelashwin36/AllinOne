@@ -5,11 +5,11 @@
         <li><a href="{{ "categories/" | absLangURL }}{{ . | urlize }}"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> {{ . }} </a></li>
       {{ end }}
     {{ end }}
-    {{ if .Params.series }}
+    <!-- {{ if .Params.series }}
       {{ range .Params.series }}
         <li><a href="{{ "series/" | absLangURL }}{{ . | urlize }}"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>{{ . }}</a></li>
       {{ end }}
-    {{ end }}
+    {{ end }} -->
   </ul>
 
   <div class="px-4 post-heading">{{ .Title }}</div>
